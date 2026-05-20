@@ -9,7 +9,8 @@ A proposta do sistema é representar, de forma simplificada, o funcionamento de 
 O sistema realiza uma simulação de matchmaking e gerenciamento de servidores:
 - Caso exista um servidor disponível para o jogo selecionado, o usuário é conectado automaticamente.
 - Caso não exista nenhum servidor online no momento, a aplicação simula a criação de um novo servidor para atender o jogador.
-
+- Um usuário não pode se conectar a mais de um servidor, ele precisará se desconectar do anterior para ir a um novo.
+  
 O projeto utiliza:
 - Frontend em React
 - Backend em FastAPI (Python)
